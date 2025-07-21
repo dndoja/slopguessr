@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SlopGuessr</title>
+  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon/favicon_32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="images/favicon/favicon_16x16.png" sizes="16x16" type="image/png">
+  <link rel="apple_touch_icon" href="images/favicon/apple_touch_icon.png" sizes="180x180">
+  <link rel="icon" href="images/favicon/android_chrome_192x192.png" sizes="192x192" type="image/png">
+  <link rel="icon" href="images/favicon/android_chrome_512x512.png" sizes="512x512" type="image/png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <style>
+    .container {
+        height:100vh; 
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:16px;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body style="margin:0">
+  <div id ="elLvlContainer" style="height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:16px"
+    >
+  <div id="elHeader" class="container">
+    <h1 id="elLives" style="margin:0"></h1>
+    <progress style="width:100%" id="elProgress" value="0" max="100"></progress>
+  </div>
+  <p1 id="elLvlDescription"></p1>
+  <canvas id="elCanvas" style="cursor:pointer;"></canvas>
+  <button id="elSubmit">Submit</button>
+  </div>
+  <div id="elGameOverContainer" class="container hidden" style="display:none">
+    <h1 id="elGameOverTitle">Game Over!<h1/>
+    <p1 id="elGameOverDescription"><p1/>
+    <button>Try Again</button>
+  </div>
+</body>
+
+<script type="module" src="slopguessr.js"></script>

@@ -1,0 +1,179 @@
+{
+  "levels": [
+    {
+      "id": "bat_scientist",
+      "prompt": "A bat scientist in a lab full of glowing beakers, comic book style, wearing goggles and flapping between test tubes and chalkboards covered in equations.",
+      "deformations": ["Mixing rod going nowhere", "Floating flask", "Faucet"]
+    },
+    {
+      "id": "robot",
+      "prompt": "A breakdancing robot with sunglasses spinning on one hand, comic book style, with motion lines and a crowd of cheering cartoon characters in the background.",
+      "deformations": ["People in the back"]
+    },
+    {
+      "id": "fairy",
+      "prompt": "A jacked fairy lifting dumbbells in a forest gym, comic book style, with exaggerated muscles, wings fluttering, and sparkles flying off her weights.",
+      "deformations": []
+    },
+    {
+      "id": "pirate",
+      "prompt": "A pirate chef cooking stew in a giant cauldron aboard a ship, comic book style, with exaggerated expressions, sea splashes, and flying ingredients like fish and peppers.",
+      "deformations": ["Spoon"]
+    },
+    {
+      "id": "mermaid",
+      "prompt": "A punk rock mermaid with tattoos playing an electric guitar underwater, comic book style, with bubbles, neon corals, and a jellyfish crowd headbanging to the music.",
+      "deformations": []
+    },
+    {
+      "id": "raccoon",
+      "prompt": "A detective raccoon in a trench coat and fedora inspecting a mysterious glowing footprint in an alley, comic book style, with moody shadows, steam, and dramatic lighting.",
+      "deformations": []
+    },
+    {
+      "id": "ghost",
+      "prompt": "A ghost in a bubble bath wearing a shower cap, comic book style, with rubber ducks, floating candles, and spooky bubbles rising around.",
+      "deformations": []
+    },
+    {
+      "id": "chicken",
+      "prompt": "A chicken in samurai armor striking a dramatic pose at sunrise, comic book style, with wind-blown feathers, glowing katana, and cherry blossoms falling around.",
+      "deformations": []
+    },
+    {
+      "id": "llama",
+      "prompt": "A llama barista serving lattes at a cozy outdoor caf\u00e9, comic book style, with scarves, autumn leaves, and steam rising from mugs.",
+      "deformations": []
+    },
+    {
+      "id": "frog",
+      "prompt": "A frog magician pulling bugs from a top hat on stage, comic book style, with a spotlight, velvet curtains, and an amazed crowd of forest animals.",
+      "deformations": []
+    },
+    {
+      "id": "dragon",
+      "prompt": "A shy dragon with flower-patterned scales hiding behind a mountain, comic book style, with a blushing expression, fluttering butterflies, and soft pastel tones.",
+      "deformations": []
+    },
+    {
+      "id": "cactus",
+      "prompt": "A cactus monster wearing rollerblades racing through a desert highway, comic book style, with speed lines, dust clouds, and startled road signs.",
+      "deformations": []
+    },
+    {
+      "id": "bunny",
+      "prompt": "A vampire bunny with a cape and fangs sneaking through a moonlit graveyard, comic book style, with spooky shadows, glowing eyes, and startled bats flying away.",
+      "deformations": []
+    },
+    {
+      "id": "snail",
+      "prompt": "A snail with racing stripes and a helmet zooming down a garden path, comic book style, with motion blur, cheering insects, and flying leaves.",
+      "deformations": []
+    },
+    {
+      "id": "squirrel",
+      "prompt": "A zombie squirrel eating brain-shaped nuts in a spooky forest, comic book style, with eerie green mist, glowing eyes, and broken branches.",
+      "deformations": []
+    },
+    {
+      "id": "cyclops",
+      "prompt": "A cyclops bird singing opera on a theater stage, comic book style, with dramatic lighting, musical notes floating in the air, and a crowd of stunned forest animals.",
+      "deformations": []
+    },
+    {
+      "id": "jellyfish",
+      "prompt": "A jellyfish riding a unicycle through an underwater circus, comic book style, with colorful coral stands, bubble trails, and fish spectators in top hats.",
+      "deformations": ["No pedals"]
+    },
+    {
+      "id": "puppy",
+      "prompt": "A two-headed puppy with a bowtie and glasses playing chess against itself, comic book style, with exaggerated expressions, checkerboard floor, and scattered paw prints.",
+      "deformations": []
+    },
+    {
+      "id": "pizza",
+      "prompt": "A slice of pizza lifting weights at the gym, comic book style, with melting cheese, pepperoni spots for muscles, and motivational posters on the wall.",
+      "deformations": []
+    },
+    {
+      "id": "burrito",
+      "prompt": "A grumpy burrito wrapped in a blanket sitting on a couch, comic book style, with a TV remote in one hand, salsa dripping, and snacks scattered around.",
+      "deformations": []
+    },
+    {
+      "id": "lizard",
+      "prompt": "A fire-breathing lizard with sunglasses skateboarding down a city street, comic book style, with flaming trails, shocked pedestrians, and graffiti walls.",
+      "deformations": ["Scales"]
+    },
+    {
+      "id": "werewolf",
+      "prompt": "A werewolf wearing a hoodie playing video games in a messy bedroom, comic book style, with snack wrappers, glowing screen light, and clawed paws gripping the controller.",
+      "deformations": ["Foot strange"]
+    },
+    {
+      "id": "griffin",
+      "prompt": "A chubby griffin sunbathing on a rooftop with sunglasses and a lemonade, comic book style, with city skyline, feathers ruffling in the wind, and sun rays bouncing off its beak.",
+      "deformations": ["Extra toe"]
+    },
+    {
+      "id": "octopus",
+      "prompt": "A cyclops octopus librarian organizing scrolls underwater, comic book style, with floating books, ink trails, and bioluminescent jellyfish lighting up the scene.",
+      "deformations": ["Hand", "Glasses"]
+    },
+    {
+      "id": "yeti",
+      "prompt": "A towering yeti knitting scarves on a snowy mountain peak, comic book style, with colorful yarn, tiny birds watching, and snowflakes swirling around.",
+      "deformations": ["Scarf inconsistent segments"]
+    },
+    {
+      "id": "dragon2",
+      "prompt": "A sleepy dragon using a volcano as a pillow, comic book style, with smoke curling from its nose, molten lava dripping, and tiny birds nesting on its head.",
+      "deformations": ["Scarf inconsistent segments"]
+    },
+    {
+      "id": "imp",
+      "prompt": "A mischievous imp tangled in Christmas lights while decorating a haunted tree, comic book style, with glowing ornaments, ghostly tinsel, and bats hanging like baubles.",
+      "deformations": ["Scarf inconsistent segments"]
+    },
+    {
+      "id": "swamp_monster",
+      "prompt": "A swamp monster relaxing in a bubble bath inside a giant lily pad, comic book style, with ducks floating nearby, candles on logs, and mist swirling around.",
+      "deformations": ["Candle in the water"]
+    },
+    {
+      "id": "moth",
+      "prompt": "A moth warrior with armor made of leaves and bark, comic book style, standing on a flower battlefield with torn petals and glowing pollen.",
+      "deformations": ["Wing missing"]
+    },
+    {
+      "id": "alchemist",
+      "prompt": "A jellyfish alchemist brewing glowing potions in an underwater lab, comic book style, with bubble beakers, coral shelves, and sparkly reagents.",
+      "deformations": ["Floating bottle"]
+    },
+    {
+      "id": "racoon_wizard",
+      "prompt": "A raccoon wizard summoning a magical portal in a city alley, comic book style, with graffiti glowing, trash floating, and neon spell circles.",
+      "deformations": ["Hat"]
+    },
+    {
+      "id": "phoenix",
+      "prompt": "A phoenix working as a blacksmith, comic book style, hammering molten metal with fire wings and glowing embers in a lava forge.",
+      "deformations": ["Wing"]
+    },
+    {
+      "id": "walrus",
+      "prompt": "A walrus shaman casting ice spells on a frozen lake, comic book style, with swirling snow, ancient tusk runes, and northern lights above.",
+      "deformations": ["Beard"]
+    },
+    {
+      "id": "slime_knight",
+      "prompt": "A slime knight riding a snail steed into battle, comic book style, with squishy armor, banner trailing behind, and cheering fungi crowds.",
+      "deformations": ["Reins"]
+    },
+    {
+      "id": "dragon_librarian",
+      "prompt": "A dragon librarian guarding an ancient book vault, comic book style, with glowing runes, scrolls floating midair, and fiery eyes peering over glasses.",
+      "deformations": ["Sight direction", "Pen"]
+    }
+  ]
+}

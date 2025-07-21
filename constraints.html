@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ellipse Tooltip Position Debugger</title>
+  <style>
+    body { margin: 0; }
+    canvas { background: #111; display: block; margin: auto; }
+    #info {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-family: sans-serif;
+      background: rgba(0,0,0,0.5);
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">Frame: 0 | ▶️ Auto</div>
+  <canvas id="elCanvas" width="600" height="400"></canvas>
+  <script type="module">
+    import { layoutTooltips } from './constraints.js';
+
+    const canvas = document.getElementById('elCanvas');
+    const ctx = canvas.getContext('2d');
+    const info = document.getElementById('info');
+
+    const ellipses = [
+      {
+        cx: 150,
+        cy: 150,
+        rx: 50,
+        ry: 30,
+        rectWidth: 400,
+        rectHeight: 50,
+      },
+      {
+        cx: 400,
+        cy: 200,
+        rx: 80,
+        ry: 40,
+        rectWidth: 400,
+        rectHeight: 50,
+      },
+    ];
+
+    const rectPositions = layoutTooltips(ellipses, canvas.width, canvas.height);
+    const maxLength = Math.max(rectPositions[0].length, rectPositions[1].length);
+    let frame = 0;
+    let paused = false;
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      ellipses.forEach((ellipse, i) => {
+        ctx.beginPath();
+        ctx.ellipse(ellipse.cx, ellipse.cy, ellipse.rx, ellipse.ry, 0, 0, Math.PI * 2);
+        ctx.strokeStyle = 'white';
+        ctx.stroke();
+
+        const pos = rectPositions[i][frame % rectPositions[i].length];
+        ctx.fillStyle = i === 0 ? 'lime' : 'cyan';
+        ctx.fillRect(pos.x - 5, pos.y - 5, 10, 10);
+      });
+
+      info.textContent = `Frame: ${frame} | ${paused ? '⏸️ Paused' : '▶️ Auto'}`;
+
+      if (!paused) {
+        frame = (frame + 1) % maxLength;
+      }
+      requestAnimationFrame(draw);
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') {
+        paused = true;
+        frame = (frame + 1) % maxLength;
+      } else if (e.key === 'ArrowLeft') {
+        paused = true;
+        frame = (frame - 1 + maxLength) % maxLength;
+      } else if (e.code === 'Space') {
+        paused = !paused;
+      }
+    });
+
+    draw();
+  </script>
+</body>
+</html>
